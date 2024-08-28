@@ -10,7 +10,6 @@ WORKDIR /var/www/html
 
 COPY oxer-html .
 
-RUN unzip oxer-html
 Run mv oxer-html
 
 EXPOSE 80
