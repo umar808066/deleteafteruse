@@ -12,8 +12,6 @@ WORKDIR /var/www/html
 
 COPY oxer-html /var/www/html
 
-Run mv oxer-html .
-
 EXPOSE 80
 
 
