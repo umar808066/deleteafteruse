@@ -8,7 +8,7 @@ RUN rm -rf /var/www/html/index.html
 
 WORKDIR /var/www/html
 
-COPY oxer.zip .
+COPY oxer-html .
 
 RUN unzip oxer.zip
 Run mv oxer-html
